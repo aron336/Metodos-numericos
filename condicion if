@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int hst;
+int ph;
+int sueldo;
+
+puts("Ingrese horas semanales trabajadas :");
+ scanf("%d",&hst);
+ 
+ puts("Ingrese precio por hora :");
+ scanf("%d",&ph);
+ 
+ if(hst <= 40){
+ 	 sueldo=  ph * 40;
+ 	 
+ }else if(hst>40){
+ 	
+ 	 sueldo=(40*ph+(ph*1.5*(hst-40)));
+ }
+ printf("%d\n",sueldo);
+ 	system("pause");
+	return 0;
+}
