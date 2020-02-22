@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main (){
+int min = 60;
+int hora = 60;
+int dia =24;
+int anio =365;
+int aniovida = 20;
+printf("\n");
+printf("cantidad vivida %d * %d * %d* %d* %d es = %d\n", 20,60,60,24,365 ,20*60*60*24*365 );
+system("Pause");
+return 0;
+}
