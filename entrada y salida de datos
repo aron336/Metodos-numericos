@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int anios;
+int sueldo;
+int x;
+ puts("ingrese años de antiguedad :");
+ scanf("%d",&anios);
+  puts("ingrese sueldo :");
+  scanf("%d",&sueldo);
+  x=(sueldo*100)/10;
+if(anios>5){
+  if(x>1000){
+  puts("credito hipotecario aprobado");
+  }
+  }
+  printf("Fin del programa\n");
+	system("pause");
+	return 0;
+}
